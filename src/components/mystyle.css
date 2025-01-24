@@ -1,0 +1,56 @@
+.app {
+    max-width: 410px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(10, 81, 99);
+    color: rgb(142, 166, 172);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .todo-item.completed {
+    opacity: 0.5;
+  }
+  
+  .todo-content {
+    flex-grow: 1;
+  }
+  
+  .todo-buttons button {
+    margin-left: 5px;
+  }
+  
+  .todo-form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .todo-form input {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-form button {
+    margin-left: 5px;
+  }
+
+  
+  
